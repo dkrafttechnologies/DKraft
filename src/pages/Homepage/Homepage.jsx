@@ -11,6 +11,7 @@ import WhatsAppPopup from "../../components/PopUp/WhatsAppPopup";
 // import Faq from "../Homepage/Faq";
 // import Review from "../Homepage/Review";
 import Testimonial from "./Testimonial";
+import Internship from "./Internship";
 import Cta from "./Cta";
 function Homepage() {
   return (
@@ -26,6 +27,7 @@ function Homepage() {
       <div id="gallery">
         <Gallery />
       </div>
+      <Internship />
       {/* <Testimonial /> */}
 
       {/* <Testimonial /> */}
